@@ -84,12 +84,12 @@ document.querySelectorAll('.line8')[2].childNodes[3].innerHTML += '<div class="q
 
 
 //move1
-movePiec(2, 4,  4, 4, 500) ;
+movePiec(2, 4,  4, 4, 2000) ;
 moveHold=moveHold+1000;
 
 //move1
 setTimeout(function(){
-	movePiec(7, 2, 5, 2,  500 ) ;
+	movePiec(7, 2, 5, 2,  2000 ) ;
 }, moveHold) 
 moveHold=moveHold+1000;
 
@@ -101,13 +101,13 @@ moveHold=moveHold+1000;
 
 //move2
 setTimeout(function(){
-	movePiec(7, 6, 6, 6,  500 ) ;
+	movePiec(7, 6, 6, 6,  2000 ) ;
 }, moveHold) 
 moveHold=moveHold+1000;
 
 //move3
 setTimeout(function(){
-	movePiec(2, 3, 3, 3,  500 ) ;
+	movePiec(2, 3, 3, 3,  2000 ) ;
 }, moveHold) 
 moveHold=moveHold+1000;
 
@@ -272,7 +272,7 @@ moveHold=moveHold+1000;
 setTimeout(function(){
 	movePiec(4, 6, 5, 7, 500 ) ;
   }, moveHold) 
-moveHold=moveHold+5000;
+moveHold=moveHold+2000;
 
 //move16
 setTimeout(function(){
@@ -306,7 +306,7 @@ moveHold=moveHold+1000;
 
 //game over
 setTimeout(function(){
-	movePiec(3, 7, 8, 7, 500 ) ;
+	movePiec(3, 7, 8, 7, 3000 ) ;
   }, moveHold) 
 
 setTimeout(function(){
