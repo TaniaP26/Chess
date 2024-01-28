@@ -231,10 +231,10 @@ p {
   height: 100%;
   position: fixed;
   left: 5%;
-  bottom: 0%;
-  perspective-origin: 10% 0%;
+  bottom: 1%;
+  perspective-origin: 10% 1%;
   transform-style: preserve-3d;
-  perspective: 300px;
+  perspective: 820px;
 }
 
 
