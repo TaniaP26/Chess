@@ -234,7 +234,7 @@ p {
   bottom: 0%;
   perspective-origin: 10% 0%;
   transform-style: preserve-3d;
-  perspective: 820px;
+  perspective: 300px;
 }
 
 
