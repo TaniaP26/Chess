@@ -191,8 +191,7 @@ p {
   border: 2px solid white;
 }
 
-
-@media screen and (max-width: 975px){
+@media screen and (max-width: 1024px){
 
 
 .chess {
@@ -207,6 +206,23 @@ p {
 }
 
 
+
+
+@media screen and (max-width: 975px){
+
+
+.chess {
+  width: 70vw;
+  height: 100%;
+  position: fixed;
+  left: 5%;
+  bottom: 0%;
+  perspective-origin: 10% 20%;
+  transform-style: preserve-3d;
+  perspective: 820px;
+}
+
+
 @media screen and (max-width: 790px){
 
 
@@ -216,7 +232,7 @@ p {
   position: fixed;
   left: 5%;
   bottom: 0%;
-  perspective-origin: 10% 30%;
+  perspective-origin: 10% 0%;
   transform-style: preserve-3d;
   perspective: 820px;
 }
